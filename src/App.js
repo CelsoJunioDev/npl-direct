@@ -1,25 +1,20 @@
-import { useEffect } from 'react';
+import { useState } from 'react';
 import './App.css';
-import messaging from './services/messaging'
-import auth from './services/authentication'
+import Chat from './screens/Chat/Chat';
+import LoginTest from './screens/Login/LoginTest';
+import AuthenticationService from './services/authentication';
 
 function App() {
-
-  messaging.getMessages()
+  const [logged, setLogged] = useState(AuthenticationService.isLoggedIn())
   
-  function login(){
-    auth.loginWithGoogle()
-  }
+  AuthenticationService.observeStatus(user => {
+    setLogged(!!user)
+  })
 
-
-   
-  
   return (
     <div className="App">
-      <header className="App-header">
-       
-        <button onClick={() => login()}>Login</button>
-      </header>
+     
+      { logged ? <Chat /> : <LoginTest /> }
     </div>
   );
 }
