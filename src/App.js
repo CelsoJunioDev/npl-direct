@@ -1,6 +1,13 @@
+import { useEffect } from 'react';
 import './App.css';
+import messaging from './services/messaging'
 
 function App() {
+
+  useEffect(() => {
+    messaging.getMessages()
+   
+  }, [])
   return (
     <div className="App">
       <header className="App-header">
