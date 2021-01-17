@@ -9,13 +9,17 @@ function Chat() {
   const { messages } = useMessages();
 
   return (
+    <>
     <S.Container>
-      <img src={Logo} alt="logo" />
+    <S.Chat>
+      <img id="logo" src={Logo} alt="logo" />
+    </S.Chat>
       <Messages messages={messages} />
       <S.MessageSender>
         <MessageSender />
       </S.MessageSender>
     </S.Container>
+    </>
   );
 }
 

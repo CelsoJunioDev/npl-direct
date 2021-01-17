@@ -1,20 +1,36 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  width: 640px;
-  height: 480px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  img {
+export const Chat = styled.div`
+display: flex;
+justify-content: center;
+background-color: #EFEFEF;
+position: sticky;
+top: 0;
+#logo {
     width: 20%;
+    top: 0;
     transition: 0.25s ease;
     align-self: center;
     :hover {
       transform: scale(1.8);
     }
   }
+
+  @media screen and (max-width: 768px) {
+   
+    #logo {
+      width: 30%;
+    }
+  }
+`
+export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 640px;
+  min-height: 480px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
   @media screen and (max-width: 768px) {
     width: 100%;
     height: 100%;
