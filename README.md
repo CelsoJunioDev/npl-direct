@@ -20,7 +20,7 @@
 
 <h1 align="center">
   <img alt="Home" src="gif.gif" height="380" />
-  <img alt="Pokedex" src="Screenshot.png" width="700" />
+  <img alt="Pokedex" src="Screenshot.png" width="800" />
   
 </h1>
 
