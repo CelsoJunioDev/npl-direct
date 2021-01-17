@@ -26,4 +26,10 @@ export const Container = styled.div`
         width: 30%;
     }
   }
-`;
+`
+
+export const MessageSender = styled.div`
+background-color: #fff;
+  position:sticky;
+  bottom:0;
+`

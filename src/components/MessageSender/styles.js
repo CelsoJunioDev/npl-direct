@@ -2,21 +2,17 @@ import styled from "styled-components";
 
 export const MessageSender = styled.div`
   display: flex;
-  padding: 16px;
+  padding: 14px;
   input {
     flex-grow: 1;
     border-radius: 0;
-    border: none;
-    border-bottom: 1px solid #eee;
+    border: 1px solid #c2c2c2;
+    border-radius: 7px;
     transition: 0.25s ease;
     outline: none;
     padding: 8px;
     color: #1e94d2;
-
-    :hover,
-    :focus {
-      border-color: #c2c2c2;
-    }
+    margin-right: 5px;
   }
 
   button {
