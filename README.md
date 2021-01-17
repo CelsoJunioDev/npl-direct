@@ -1,10 +1,7 @@
 <h1 align="center">
   <img alt="direct" src="https://marcas-logos.net/wp-content/uploads/2020/01/Instagram-Logo.png" width="250px" />
-  
-</h1>
-<h1 align="center">
-  Direct
   </h1>
+
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/CelsoJunioDev/npl-direct">
