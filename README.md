@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Pokedex" src="https://marcas-logos.net/wp-content/uploads/2020/01/Instagram-Logo.png" width="250px" />
+  <img alt="direct" src="https://marcas-logos.net/wp-content/uploads/2020/01/Instagram-Logo.png" width="250px" />
 </h1>
 
 <p align="center">
@@ -17,12 +17,12 @@
   <a href="#rocket-começando">Começando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#thought_balloon-inspiração">Inspiração</a>
 </p>
-<!--
+
 <h1 align="center">
-  <img alt="Home" src="https://res.cloudinary.com/matheuspires/image/upload/v1608076168/home_imjh7b.gif" width="400" />
-  <img alt="Pokedex" src="https://res.cloudinary.com/matheuspires/image/upload/v1608076006/pokemon_ismsal.gif" width="400" />
+  <img alt="Home" src="gif.gif" height="380" />
+  <img alt="Pokedex" src="Screenshot.png" width="700" />
+  
 </h1>
---!>
 
 ## :page_with_curl: Sobre
 Este repositório foi criado para atender aos requisitos de um teste imposto por uma empresa.
