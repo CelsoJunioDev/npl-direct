@@ -1,59 +1,57 @@
 .Messages {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    grid-gap: 8px;
-    overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  grid-gap: 8px;
 }
 .Messages .Message {
-    display: flex;
-    animation: pop 0.25s ease;
+  display: flex;
+  animation: pop 0.25s ease;
 }
 @keyframes pop {
-    from {
-        transform: scale(0);
-   }
-    to {
-        transform: scale(1);
-   }
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 .Messages .Message.outgoing {
-    justify-content: flex-end;
-    margin-right: 5px;
+  justify-content: flex-end;
+  margin-right: 5px;
 }
-.Messages .Message .outgoing, .Messages .Message .incoming {
-    display: flex;
+.Messages .Message .outgoing,
+.Messages .Message .incoming {
+  display: flex;
 }
-.Messages .Message .outgoing span, .Messages .Message .incoming span {
-    padding: 8px;
-    font-size: 14px;
-    border-radius: 7px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, .10);
-    width: 35%;
-    
-    margin-bottom: 5px;
+.Messages .Message .outgoing span,
+.Messages .Message .incoming span {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 7px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  width: 35%;
+
+  margin-bottom: 5px;
 }
 .Messages .Message .outgoing {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 .Messages .Message .outgoing span {
-    background-color: #1111;
-    color: #000;
-    margin-right: 5px;
-    width: 100%;
-    flex-wrap: wrap;
-
+  background-color: #1111;
+  color: #000;
+  margin-right: 5px;
+  width: 100%;
+  flex-wrap: wrap;
 }
 .Messages .Message .incoming span {
-    background-color: #fff;
-    color: #000;
-    width: 100%;
-
+  background-color: #fff;
+  color: #000;
+  width: 100%;
 }
 .Messages .Message img {
-    width: 32px;
-    height: 32px;
-    border-radius: 16px;
-    margin-bottom: 5px;
-
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  margin-bottom: 5px;
 }
