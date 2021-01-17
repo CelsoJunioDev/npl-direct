@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/npl-direct/static/css/main.124dfc0a.chunk.css",
-    "main.js": "/npl-direct/static/js/main.e5c24fff.chunk.js",
-    "main.js.map": "/npl-direct/static/js/main.e5c24fff.chunk.js.map",
+    "main.css": "/npl-direct/static/css/main.13b338a5.chunk.css",
+    "main.js": "/npl-direct/static/js/main.a3869f62.chunk.js",
+    "main.js.map": "/npl-direct/static/js/main.a3869f62.chunk.js.map",
     "runtime-main.js": "/npl-direct/static/js/runtime-main.9674be2a.js",
     "runtime-main.js.map": "/npl-direct/static/js/runtime-main.9674be2a.js.map",
     "static/js/2.8eb13c4c.chunk.js": "/npl-direct/static/js/2.8eb13c4c.chunk.js",
     "static/js/2.8eb13c4c.chunk.js.map": "/npl-direct/static/js/2.8eb13c4c.chunk.js.map",
     "index.html": "/npl-direct/index.html",
-    "static/css/main.124dfc0a.chunk.css.map": "/npl-direct/static/css/main.124dfc0a.chunk.css.map",
+    "static/css/main.13b338a5.chunk.css.map": "/npl-direct/static/css/main.13b338a5.chunk.css.map",
     "static/js/2.8eb13c4c.chunk.js.LICENSE.txt": "/npl-direct/static/js/2.8eb13c4c.chunk.js.LICENSE.txt",
     "static/media/ig_initial.9c6581ff.png": "/npl-direct/static/media/ig_initial.9c6581ff.png",
     "static/media/ig_logo.d82a0f32.png": "/npl-direct/static/media/ig_logo.d82a0f32.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.9674be2a.js",
     "static/js/2.8eb13c4c.chunk.js",
-    "static/css/main.124dfc0a.chunk.css",
-    "static/js/main.e5c24fff.chunk.js"
+    "static/css/main.13b338a5.chunk.css",
+    "static/js/main.a3869f62.chunk.js"
   ]
 }
