@@ -3,9 +3,10 @@ import styled from "styled-components";
 export const Chat = styled.div`
 display: flex;
 justify-content: center;
-background-color: #EFEFEF;
+background-color: #fff;
 position: sticky;
 top: 0;
+border: 1px solid #EFEFEF;
 #logo {
     width: 20%;
     top: 0;
@@ -33,7 +34,7 @@ export const Container = styled.div`
 
   @media screen and (max-width: 768px) {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     img {
       width: 30%;
     }
@@ -41,7 +42,12 @@ export const Container = styled.div`
 `;
 
 export const MessageSender = styled.div`
+  width: 640px;
   background-color: #fff;
   position: sticky;
   bottom: 0;
+
+  @media screen and (max-width: 768px){
+    width: 100%;
+  }
 `;

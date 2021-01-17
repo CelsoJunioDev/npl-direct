@@ -15,10 +15,10 @@ function Chat() {
       <img id="logo" src={Logo} alt="logo" />
     </S.Chat>
       <Messages messages={messages} />
+    </S.Container>
       <S.MessageSender>
         <MessageSender />
       </S.MessageSender>
-    </S.Container>
     </>
   );
 }
